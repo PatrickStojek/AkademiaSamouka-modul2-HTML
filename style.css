@@ -26,3 +26,11 @@ p:last-child {
     color: #888;
     margin-left: -20px;
 }
+
+p a[href]::after {
+    content: "";
+    display: inline-block;
+    font-size: 10px;
+    color: #888;
+    margin-left: 100px;
+}
