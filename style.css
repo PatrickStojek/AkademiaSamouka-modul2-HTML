@@ -1,0 +1,28 @@
+a[rel='nofollow'] {
+    background-color: red;
+}
+
+button {
+    border: 1px solid black;
+    background-color: #f4f;
+    transition: 2s transform;
+}
+
+button:active {
+    transform: scale(2) rotate(90deg);
+}
+
+p:first-child {
+    text-indent: 20px;
+}
+
+p:last-child {
+    word-spacing: 30px;
+}
+
+.shopping-list::before {
+    content: "lista zakupów";
+    font-size: 10px;
+    color: #888;
+    margin-left: -20px;
+}
