@@ -90,3 +90,50 @@ p a[href]::after {
     background-size: auto 100%;
     background-position: bottom right;
 }
+
+.container-relative {
+    display: inline-block;
+    border: 1px solid red;
+    margin-bottom: 100px;
+}
+
+.box-relative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; height: 100px;
+    background: rgba(0, 250, 0, .5);
+    position: relative;
+    bottom: -50px;
+    right: -50px; 
+}
+
+.container-row {
+    margin: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-absolute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.box-absolute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; height: 100px;
+    background: rgba(0, 250, 0, .5);
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+}
+
