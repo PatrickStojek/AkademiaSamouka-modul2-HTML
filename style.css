@@ -137,3 +137,28 @@ p a[href]::after {
     right: -50px;
 }
 
+.popup {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;right: 0; bottom: 0; left: 0;
+}
+
+.content {
+    height: 300px; width: 400px;
+    background-color: rgba(255, 0, 0, .1);
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-icon {
+    font-size: 20px; /* this doesn't work */
+}
+
+.popup-text {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
