@@ -27,10 +27,15 @@ p:last-child {
     margin-left: -20px;
 }
 
+.shopping-list {
+    font: bold 12px/1.5em Arial, Helvatica, sans-serif;
+}
+
 p a[href]::after {
     content: "";
     display: inline-block;
-    font-size: 10px;
-    color: #888;
-    margin-left: 100px;
+    margin-left: 6px;
+    border: 10px solid transparent;
+    border-left-color: green;
+    vertical-align: middle;
 }
