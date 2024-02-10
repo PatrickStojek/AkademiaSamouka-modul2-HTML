@@ -138,6 +138,7 @@ p a[href]::after {
 }
 
 .popup {
+    display: none;
     background-color: rgba(0, 0, 0, .5);
     position: fixed;
     top: 0;right: 0; bottom: 0; left: 0;
@@ -154,11 +155,18 @@ p a[href]::after {
 }
 
 .close-icon {
-    font-size: 20px; /* this doesn't work */
+    cursor: pointer;
+}
+
+.close-icon:hover {
+    background-color: rgba(255, 0, 0, 0.4);
+    border-radius: 15px;
 }
 
 .popup-text {
+    font-weight: bolder;
     position: absolute;
     left: 50%; top: 50%;
     transform: translate(-50%, -50%);
 }
+
