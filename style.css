@@ -202,6 +202,8 @@ figure:hover figcaption {
 .red {
     background-color: rgba(255, 0, 0);
     z-index: 100;
+    text-align: center;
+    vertical-align: center;
 }
 
 .green {
