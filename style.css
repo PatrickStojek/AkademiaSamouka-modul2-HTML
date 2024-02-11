@@ -188,3 +188,24 @@ figcaption {
 figure:hover figcaption {
     visibility: visible;
 }
+
+.squres-container {
+    margin: 50px;
+}
+
+.square {
+    width: 100px; height: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.red {
+    background-color: rgba(255, 0, 0);
+    z-index: 100;
+}
+
+.green {
+    background-color: rgba(0, 255, 0);
+    left: -20px;
+    bottom: -20px;
+}
