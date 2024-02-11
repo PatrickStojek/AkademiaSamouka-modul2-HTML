@@ -170,3 +170,21 @@ p a[href]::after {
     transform: translate(-50%, -50%);
 }
 
+figure {
+    display: inline-block;
+    position: relative;
+    /* border: 1px solid rgba(0, 0, 0, .4); */
+}
+
+figcaption {
+    position: absolute;
+    right: 0; bottom:0px; left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255);
+    text-align: center;
+    visibility: hidden;
+}
+
+figure:hover figcaption {
+    visibility: visible;
+}
