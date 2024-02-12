@@ -211,3 +211,25 @@ figure:hover figcaption {
     left: -20px;
     bottom: -20px;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.tick-icon-red {
+    fill: red
+}
+
+.tick-icon-green {
+    fill: green;
+}
+
+.code {
+    font-family: monospace;
+    background-color: #333;
+    padding: 15px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
