@@ -13,7 +13,17 @@
 .nav__item {
     background: rgba(220, 220, 220);
     outline-color: green;
-    display: inline-block;
+    float: left;
     margin-left: 5px;
     outline-color: green;
+}
+
+.nav__item:first-child{
+        margin-left: 0;
+}
+
+.nav::after {
+    content: "";
+    display: block;
+    clear: both;
 }
