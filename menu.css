@@ -1,0 +1,19 @@
+.nav, .nav__item {
+    /* outline: 1px solid;
+    margin: 3px; padding: 3px; */
+    list-style: none;
+}
+
+.nav {
+    outline-color: red;
+    padding: 10px;
+    background-color: rgba(0, 200, 250);
+}
+
+.nav__item {
+    background: rgba(220, 220, 220);
+    outline-color: green;
+    display: inline-block;
+    margin-left: 5px;
+    outline-color: green;
+}
