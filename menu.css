@@ -22,6 +22,7 @@
     margin-left: 5px;
     outline-color: green;
     position: relative ;
+    cursor: pointer;
 }
 
 .nav__item--no-space {
