@@ -1,3 +1,8 @@
+:root {
+    --color-alfa: rgb(220,220,220);
+    --color-beta: rgb(0, 200, 250);
+}
+
 * {
     /* outline: 1px solid;
     margin: 3px; padding: 3px; */
