@@ -1,3 +1,5 @@
+
+
 .row, .cell, .container {
     margin: 5px;
     padding: 5px;
@@ -17,4 +19,35 @@
 .cell {
     min-height: 50px;
     outline-color: orange;
+}
+
+/* Header */
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    min-width: 200px;
+}
+
+.header__nav {
+    min-width: 400px;
+}
+/* Content */
+.content__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__article {
+    min-height: 400px;
+    width: 75%;
+}
+
+.content__ads {
+    min-height: 150px;
+    width: 20%;
 }
